@@ -1,0 +1,146 @@
+body {
+    background-image: url('https://img.goodfon.com/wallpaper/big/5/d6/zima-sneg-snezhinki-fon-christmas-winter-background-snow-s-4.webp'); 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    margin:0;
+    padding:auto;
+  }
+  body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    height:3000px;
+      background-color: rgba(0, 0, 0, 0.5); 
+      z-index: -1; /* Keeps it behind any content */
+  }
+  
+  h1 {
+    font-size:50px;
+    text-align:center;
+    font-family:Fantasy;
+    background-color:#87CEEB;
+    font-weight:normal;
+  }
+  h2,h4 {
+    text-align:center;
+    background-color:#F0FFFF;
+  }
+  .theme {
+      width: 90%;
+      margin: 0 auto;
+  }
+  .theme th, .theme td {
+      border: 2px ridge #00BFFF; 
+      padding: 3px;
+      text-align: center;
+  }
+  .theme th {
+      background-color: #87CEEB; 
+      color: white;
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  .theme td {
+    color:black;
+    font-size: 14px;
+    background-color:#FAFAD2;
+  }
+  p {
+    text-align:center;
+    font-family:serif;
+    color:white;
+    font-size:25px;
+  }
+  a {
+    text-decoration:none; 
+    color:skyblue;
+  }
+  h3 {
+    text-align:center;
+    background-color:#F0FFFF;
+    font-size:35px;
+  }
+  .image-container {
+    background-color:#FAF0E6;
+      display: flex; /* Aligns images in a row */
+    flex-direction:column;
+      justify-content: space-around; /* Space between images */
+      padding: 10px; /* Padding around the container */
+      border: 8px solid #87CEFA; /* Border around the container */
+      width: 50%; 
+      margin: 0 auto; /* Center the container */
+     justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+      width: 200px; 
+      height: auto; 
+      border: 4px solid #778899; 
+      border-radius: 90px; /* Optional: Adds rounded corners */
+      padding: 20px; /* Space inside the border */
+    margin-bottom: 10px; /* Space between images */
+  }
+  h5 {
+    text-align:center;
+    font-family:serif;
+    color:black;
+    font-size:25px;
+    background-color:#F0FFFF;
+  }
+  form {
+    width: auto;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 1px auto;
+    padding-bottom: 2em;
+  }
+  fieldset {
+    border: none;
+    padding:0rem 0;
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 2px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #F0FFFF;
+    border: 1px solid #0a0a23;
+    color: black;
+  }
+  legend,label {
+    color:white;
+    padding:3px;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #87CEEB;
+    border-color: white;
+    min-width: 50px;
+  }
+  
